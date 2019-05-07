@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = $"Chat #{Model.GroupId}";
+}
+<h2>Room #@Model.GroupId</h2>
+
+<vc:chat room-id="@Model.GroupId" />
+<vc:room-list />
+
+@section Scripts
+{
+    <script>
+        groupId = '@Model.GroupId'
+    </script>
+}

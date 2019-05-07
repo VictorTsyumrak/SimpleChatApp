@@ -1,0 +1,16 @@
+@model IReadOnlyCollection<SimpleChatApp.Models.RoomViewModel>
+<div class="row">
+    @foreach (var room in Model)
+    {
+        if (room.IsAvailable)
+        {
+            <a class="btn btn-info col-md"
+               asp-page="/Index" 
+               asp-route-groupId="@room.RoomId">Room #@room.RoomId</a>
+        }
+        else
+        {
+            <div class="btn badge-danger col-md">Room #@room.RoomId</div>
+        }
+    }
+</div>

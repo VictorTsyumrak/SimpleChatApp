@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatApp", "SimpleChatApp\SimpleChatApp.csproj", "{D4A676B3-7942-4E94-892B-2A01D4ECCF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatApp.Domain", "SimpleChatApp.Domain\SimpleChatApp.Domain.csproj", "{A250CEB2-7EA0-45E3-AE04-9FE390627D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatApp.Abstractions", "SimpleChatApp.Abstractions\SimpleChatApp.Abstractions.csproj", "{EC4EED54-6273-4711-8694-35AA88657C7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A676B3-7942-4E94-892B-2A01D4ECCF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A676B3-7942-4E94-892B-2A01D4ECCF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A676B3-7942-4E94-892B-2A01D4ECCF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A676B3-7942-4E94-892B-2A01D4ECCF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A250CEB2-7EA0-45E3-AE04-9FE390627D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A250CEB2-7EA0-45E3-AE04-9FE390627D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A250CEB2-7EA0-45E3-AE04-9FE390627D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A250CEB2-7EA0-45E3-AE04-9FE390627D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4EED54-6273-4711-8694-35AA88657C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4EED54-6273-4711-8694-35AA88657C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4EED54-6273-4711-8694-35AA88657C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4EED54-6273-4711-8694-35AA88657C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
